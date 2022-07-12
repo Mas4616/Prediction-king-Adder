@@ -1,18 +1,36 @@
-#THE AUTHOR OF THIS  SCRIPT IS @deadsec0_0darky for Prediction king
+#THE AUTHOR OF THIS  SCRIPT IS DARK DEVIL
 #PLEASE GIVE CREDITS IF U WANT TO COPY
-# JOIN : https://t.me/samEsmermall FOR MORE 
+# JOIN ~ @I_am_Prediction_King_Bot FOR MORE 
 #IMPORT
 import os
-from colorama import init, Fore
 from time import sleep
 import csv
 import time
 import random
 import os
 import pickle
-from termcolor import colored, cprint
 import sys
+import time,os,sys
 
+def typingPrint(text):
+  for character in text:
+    sys.stdout.write(character)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  
+def typingInput(text):
+  for character in text:
+    sys.stdout.write(character)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  value = input()  
+  return value  
+  
+def clearScreen():
+  os.system("clear")
+
+  
+    
 #COLORS
 init()
 n = Fore.RESET
@@ -31,28 +49,60 @@ except ImportError:
     print(f'{lg}[i] Installing module - requests...{n}')
     os.system('pip install requests')
 
-# BANNER {LOGO} DARKY {@deadsec0_0darky}
+# BANNER {LOGO} DARK DEVIL
 def banner():
     import random
 
     b = [
-'╔═╗╦═╗╔═╗╔╦╗╦╔═╗╔╦╗╦╔═╗╔╗╔',  
-'╠═╝╠╦╝║╣  ║║║║   ║ ║║ ║║║║',  
-'╩  ╩╚═╚═╝═╩╝╩╚═╝ ╩ ╩╚═╝╝╚╝',  
-    '╦╔═╦╔╗╔╔═╗',              
-    '╠╩╗║║║║║ ╦',              
-    '╩ ╩╩╝╚╝╚═╝',              
+
+'                    _ _      _   _              ',
+'                    | (_)    | | (_)            ',
+'  _ __  _ __ ___  __| |_  ___| |_ _  ___  _ __  ',
+' |  _ \|  __/ _ \/ _  | |/ __| __| |/ _ \|  _ \ ',
+' | |_) | | |  __/ (_| | | (__| |_| | (_) | | | |',
+' | .__/|_|  \___|\__,_|_|\___|\__|_|\___/|_| |_|',
+' | |                                            ',
+' |_|   _                                        ',
+' | |  (_)                                       ',
+' | | ___ _ __   __ _                            ',
+' | |/ / |  _ \ / _  |                           ',
+' |   <| | | | | (_| |                           ',
+' |_|\_\_|_| |_|\__, |                           ',
+'                __/ |                           ',
+'               |___/                            ',
+ 
+
                                                                                             
 
 
     ]
     for char in b:    
-        print(f'{w}{char}{n}{w}')
+        print(f'{cy}{char}{n}{cy}')
     print(f'{r}   {r}')
-    print(f'{r}  ᴏᴡɴᴇʀ  : {gr}ᴘʀᴇᴅɪᴄᴛɪᴏɴ ᴋɪɴɢ {gr}')
-    print(f'{r}  ɢʀᴏᴜᴘ    : {gr}https://t.me/samEsmermall{gr}')
-    print(f'{r}  ᴅᴇᴠᴇʟᴏᴘᴇʀ : {gr}ᴅᴀʀᴋ😈ᴅᴇᴠɪʟ{gr}')
-    cprint('\nᴘʀᴇᴅɪᴄᴛɪᴏɴ ᴋɪɴɢ', 'red', attrs=['blink'])
+    print(f'{r}  ᴏᴡɴᴇʀ     : {gr}ᴘʀᴇᴅɪᴄᴛɪᴏɴ ᴋɪɴɢ {gr}')
+    print(f'{r}  ʙᴏᴛ       : {gr}@I_am_Prediction_King_Bot{gr}')
+    print(f'{r}  ᴅᴇᴠᴇʟᴏᴘᴇʀ : {gr}@deadsec0_0darky{gr}')
+    print(f'{r}   {r}')
+
+#typing text
+typingPrint(" ᴛʜɪꜱ ꜱᴄʀɪᴘᴛ ʙᴇʟᴏɴɢꜱ ᴛᴏ ᴘʀᴇᴅɪᴄɪᴛᴏɴ ᴋɪɴɢ | ᴄᴏɴᴛᴀᴄᴛ :@I_am_Prediction_King_Bot\n")
+time.sleep(1)
+typingPrint("ᴏᴡɴᴇʀ   : ᴘʀᴇᴅɪᴄᴛɪᴏɴ ᴋɪɴɢ\n")
+time.sleep(1)
+typingPrint("ᴅᴇᴠᴇʟᴏᴘᴇʀ : @deadsec0_0darky\n")
+time.sleep(1)
+typingPrint("ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴏᴜʀ ꜱᴄʀɪᴘᴛ\n")
+time.sleep(1)
+
+
+
+
+
+
+time.sleep(1)
+clearScreen()
+
+
 
 # FUNCTION CALLING 
 def clr():
@@ -72,7 +122,6 @@ while True:
        print("[+] Installing requierments ...")
        os.system('pip install telethon==1.24.0')
        os.system('pip install colorama==0.4.3')
-       os.system('pip install cryptography')
        print("[+] setup complete !")
        print("[+] now you can run any tool !")
         
